@@ -61,5 +61,5 @@ diceBtn.addEventListener("click", () => {
     const randomAdvice = advice[randomIndex];
     adviceText.textContent = randomAdvice;
   }
-  const randomAdvice = getRandomAdvice();
+  getRandomAdvice();
 });
